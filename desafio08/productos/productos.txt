@@ -16,12 +16,17 @@
 		"title": "Xiami-A1",
 		"price": 30000,
 		"thumbnail": "https://celulares.com/Xiami-A1.jpg"
-		
 	},
 	{
 		"id": 4,
 		"title": "Motorola-G100",
 		"price": 90000,
-		"thumbnail": "https://celulares.com/Motorola-G100.jpg"	
+		"thumbnail": "https://celulares.com/Motorola-G100.jpg"
+	},
+	{
+		"title": "Olalala chuladaa",
+		"price": 23324,
+		"thumbnail": "https://celulares.com/Olalala chuladaa.jpg",
+		"id": 5
 	}
 ]

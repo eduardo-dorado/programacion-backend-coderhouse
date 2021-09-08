@@ -32,7 +32,7 @@ app.get('/api/productos/listar/:id', async (req, res) =>{
 
 // Almaceno el producto
 app.post('/api/productos/guardar/', async (req, res) =>{
-    const product = await new Productos(req.body.title, req.body.price, req.body.thumbnail);
+    const product = new Productos(req.body.title, req.body.price, req.body.thumbnail);
     res.send(await archivo.create(product));
 })
 
